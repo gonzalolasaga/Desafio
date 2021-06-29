@@ -35,9 +35,9 @@ El alta de cliente se hace mediante el Endpoint https://desafio-intercorp.heroku
 }
 ```
 
-El listado de todos los clientes con su fecha probable de muerte se hace mediante el Endpoint https://desafio-intercorp.herokuapp.com/client/listclientes.
+El listado de todos los clientes se obtiene mediante el Endpoint https://desafio-intercorp.herokuapp.com/client/listclientes.
 
-La informacion de promedio de edad y desviación estándar de los clientes se obtiene mediante el Endpoint https://desafio-intercorp.herokuapp.com/client/kpideclientes.
+El promedio de edad y la desviación estándar se obtienen mediante el Endpoint https://desafio-intercorp.herokuapp.com/client/kpideclientes.
 
 **Para consumir los difrentes Endpoints sera necesario utilizar Postman o alguna tecnologia similar de testeo de APIRest.**
 
