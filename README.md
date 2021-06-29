@@ -7,17 +7,17 @@ _Crear e insertar un cliente en la base de datos (/creacliente).
 _Listar todos los clientes con todos los datos y adicionalmente con su fecha probable de muerte (/listclientes).
 _Calcular promedio de edad y desviación estándar entre las edades de todos los clientes (/kpideclientes).
 
-## Tecnologias
+## Tecnologias utilizadas
 
-_SpringBoot	
-_Maven 3
-_JAVA 11
-_Spring MVC architecture
-_RestController
-_H2 Database y JPARepository 
-_Swagger
-_ModelMapper
-_Heroku
+- SpringBoot	
+- Maven 3
+- JAVA 11
+- Spring MVC architecture
+- RestController
+- H2 Database y JPARepository 
+- Swagger
+- ModelMapper
+- Heroku
 
 ## Detalle de los Endpoints
 
