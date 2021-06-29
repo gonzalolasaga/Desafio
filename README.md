@@ -7,7 +7,7 @@ _Crear e insertar un cliente en la base de datos (/creacliente).
 _Listar todos los clientes con todos los datos y adicionalmente con su fecha probable de muerte (/listclientes).
 _Calcular promedio de edad y desviación estándar entre las edades de todos los clientes (/kpideclientes).
 
-##Tecnologias
+## Tecnologias
 
 _SpringBoot	
 _Maven 3
@@ -23,7 +23,7 @@ _Heroku
 
 La aplicacion se encuentra deployada en www.heroku.com
 
-###Como utilizar los Endpoints
+### Como utilizar los Endpoints
 
 El alta de cliente se hace mediante el Endpoint https://desafio-intercorp.herokuapp.com/client/creacliente con el siguiente formato de Body:
 ```js
@@ -40,9 +40,9 @@ El listado de todos los clientes con su fecha probable de muerte se hace mediant
 ```sh
 La informacion de promedio de edad y desviación estándar de los clientes se obtiene mediante el Endpoint https://desafio-intercorp.herokuapp.com/client/kpideclientes.
 ```
-**Para consumir los difrentes Endpoints sera necesario utilizar Postman o alguna tecnologia similar de testeo de APIRest.**
+** Para consumir los difrentes Endpoints sera necesario utilizar Postman o alguna tecnologia similar de testeo de APIRest. **
 
-##Aclaraciones
+## Aclaraciones
 
 _La Api se realizo respetando al maximo lo solicitados en el documento. Se utilizo los nombres solicitados tanto para los endpoints como para los dados a guardar en la base de datos (tabla y columnas), internamente, los nombres estan en Ingles.
 
@@ -51,7 +51,7 @@ _La version de springboot no es la ultima por cuestiones de compatibilidad con e
 _La constante utlizada para guardar el dato de espectativa de vida (LIFE_EXPECTANCY) se realizo de ese modo a fines practico, lo ideal seria externalizarla o guardarla 
 en la base de datos para poder actualizar si en el futuro se produce algun cambio.
 
-##Observaciones
+## Observaciones
 
 _Es redundante y poco eficiente utilizar una columna "EDAD" ya que con la fecha de nacimientos se puede obtener esta informacion y ademas seria necesario actualizarla diariamente. Igualmente fui incluida como se solicita en el documento.
 
